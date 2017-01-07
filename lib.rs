@@ -185,8 +185,8 @@ pub struct TestOpts {
 
 #[derive(Clone, PartialEq)]
 pub struct BenchSamples {
-    ns_iter_summ: stats::Summary,
-    mb_s: usize,
+    pub ns_iter_summ: stats::Summary,
+    pub mb_s: usize,
 }
 
 #[derive(Clone, PartialEq)]
